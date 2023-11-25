@@ -168,6 +168,7 @@ hr{
     left: 0px;
     top: 440px;
     width: 100%;
+    z-index: 2;
 }
 
 .agendaTitleDescription{
@@ -224,9 +225,9 @@ hr{
 
 .weeksbg{
     position: absolute;
-    width: 790px;
+    width: 710px;
     z-index: -1;
-    bottom:-70px;
+    bottom:-50px;
     right: -100px;
 
 
