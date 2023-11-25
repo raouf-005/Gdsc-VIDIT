@@ -5,7 +5,8 @@ const RegistrationBtn = () => {
 
     return (
         <center>
-              <button className="RegistrationBtn">
+              <button className="RegistrationBtn"
+              onClick={() => window.open('https://forms.gle/', '_blank')}>
             REGISTRATION
             </button>
         </center>

@@ -6,16 +6,20 @@ import "./../../styles/Components.css";
 export default function AgendaTitle(){
     return(
                 <div className="AgendaContainer1">
+                    <div>
                     <hr/>
                     <h2 className="AgendaTitle">
                         AGENDA
                     </h2>
-                    <p className="agendaDescription">
-                        VIDITrip in a hole month
-                    <span>
-                        From scratch to professionalism
-                    </span>
-                    </p>
+                        <div className="agendaTitleDescription">
+                            <p className="agendaDescription">
+                                VIDITrip in a hole month
+                            </p>
+                            <p>
+                                From scratch to professionalism
+                            </p>
+                        </div>
+                    </div>
                     <img src={agenda1} alt="agendaimg" className="img1Agenda"/>
                     <img src={path} alt="path" className="pathAgenda"/>
                 </div>
