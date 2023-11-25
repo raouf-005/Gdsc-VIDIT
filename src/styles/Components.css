@@ -1,0 +1,285 @@
+.Container1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 190px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.titleText{
+    font-size: 64px;
+
+    color: black;
+    margin-bottom: 30px;
+}
+
+.titleBtn{
+    background-color: #4D8CF3;
+    color: #FFFFFF;
+    padding: 18px 28px;
+    border-radius: 0.5rem;
+    border: none;
+   font-size: 24px;
+   transition: color 0.2s, background-color 0.2s;
+   
+}
+.titleBtn:hover , .RegistrationBtn:hover ,.footerLowerContainer >button:active{
+    opacity: 0.8;
+}
+.titleBtn:active , .RegistrationBtn:active,.footerLowerContainer >button:hover{
+    background-color: #FFFFFF;
+    color: #4D8CF3;
+    border: 1px solid #4D8CF3;
+}
+
+.leftSection1{
+
+}
+
+
+/* Path: src/styles/About.css */
+.Container2{
+    display: flex;
+    gap: 3%;
+    justify-content:center;
+    align-items: top;
+    margin-bottom: 300px;
+    
+}
+.aboutRightPart{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.aboutTitle{
+    margin-top: 0;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2.7px;
+}
+
+.aboutSubTitle{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+  
+    margin: 0;
+    
+}
+
+.aboutDescription{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+   
+}
+/* Path: src/styles/Workshop.css */
+
+.ContainerWorkshop{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+hr{
+    width: 130px;
+    border: 2px solid #EBC022;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.workshopTitle,.AgendaTitle {
+    display: inline-block;
+    font-size: 36px;
+    color: #0F9D58;
+    text-align: center;
+    font-weight: 900;
+}
+.workshopDescription .agendaDescription{
+    font-size: 20px;
+
+}
+
+/* Path: src/styles/Agenda.css */t
+
+.titleAgendaContainer{
+   display: flex;
+   gap: 30px;
+
+}
+.AgendaContainer1{
+   
+   position: relative;
+   height: 600px;
+   margin-bottom: 30px;
+    padding-left: 320px;
+}
+
+
+.img1Agenda{
+   position: absolute;
+   top: 0;
+   left: 500px;
+}
+
+.pathAgenda{
+    position:absolute;
+    left: 0px;
+    top: 280px;
+    width: 100%;
+}
+
+/* Path: src/styles/WeeksCard.css */
+
+.CardStyle{
+    border-radius: 156.975px 26.163px;
+    box-shadow: 0px 0px 13.08125px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 60%;
+    padding: 8% 5% 7% 6%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 350px;
+    gap: 8%;
+}
+
+.CardTitle{
+    color: #5792F5;
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+.CardDescription{
+    color: #F3796E;
+    font-size: 19px;
+    font-weight: 400; 
+    width: 113%;
+    letter-spacing: 0.38px;
+}
+
+/* Path WeeksGrid */
+
+
+.weeksGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr) 500px 1fr;
+    justify-items: center;
+    margin-bottom: 200px;
+    row-gap: 30px;
+    position: relative;
+}   
+.pathContainer{
+    position: absolute;
+    grid-row: 3;
+    grid-column: 2;
+    width: 100%;
+    right: 100%;
+    top: -180px;
+   
+}
+
+.pathWeeks{
+    width: 199%;
+    
+}
+/*Path Challenges */
+.ChallengeContainer{
+
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+}
+
+.ChallengeTitle{
+    margin-top: 90px;
+    color:  #127681;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.ChallengeDescription{
+    font-size: 32px;
+    font-weight: 500;
+    max-width: 480px;
+}
+
+/*Path RegistrationBtn */
+
+.RegistrationBtn{
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-size: 30px;
+    background: #5792F5;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 150px;
+    margin-top: 80px;
+    
+}
+
+/*Path Sponsors */
+
+.sponsorLogosContainer{
+    display: flex;
+    margin-block: 40px 60px;
+    justify-content: space-evenly;
+    
+}
+
+/*Path Footer */
+.footerUpperContainer{
+    background-color: rgba(251, 194, 24, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 190px;
+}
+.footerLowerContainer{
+    background-color: #5792F5;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 11%;
+    height: 59px;
+}
+.footerLowerContainer > button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 13px 18px;
+}
+.leftPartFooter{
+    text-align: center;
+
+}
+
+.leftPartFooter > h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.leftPartFooter >h2{
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.middlePartFooter{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: repeat(3,30px);
+    align-items: center;
+    row-gap: 4px;
+    
+}
+.footerLowerContainer >button{
+    border-radius: 0.5rem;
+    transition: color 0.2s, background-color 0.2s;
+}

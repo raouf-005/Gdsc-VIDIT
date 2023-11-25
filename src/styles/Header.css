@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    padding-inline: 40px;
+}
+
+.header-right{
+    display: flex;
+}
+
+.headerbtns{
+    background-color: transparent;
+    color:#605E5E ;
+    border: none;
+    padding: 18px 28px;
+    margin-right: 5px;
+    border-radius: 0.3rem;
+    font-size: 17px;
+    transition: color 0.2s, background-color 0.2s,animation 0.2s;
+}   
+
+.headerbtns:hover{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);  
+    animation: move-right-side 1s ease infinite;
+    color: white;
+}
+
+.RegisterBtn{
+    background-color: #4D8CF3;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.RegisterBtn:hover{
+    opacity: 0.8;
+}
+
+.RegisterBtn:active{
+    background-color: #FFFFFF;
+    color: #4D8CF3;
+    border: 1px solid #4D8CF3;
+}
