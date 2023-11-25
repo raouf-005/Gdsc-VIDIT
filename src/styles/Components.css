@@ -713,6 +713,7 @@ hr{
         padding: 7px 8px;
     }
     
+    
 }
 @media  (max-width: 800px){
     .greendot1 ,.greendot2,.greendot3,.greendot4,.bluedot{
@@ -724,6 +725,9 @@ hr{
     .cerclebg{
         top: 10px;
         left: 10px;
+    }
+    .agendaHr{
+        margin-left: 0px;
     }
 
 }
