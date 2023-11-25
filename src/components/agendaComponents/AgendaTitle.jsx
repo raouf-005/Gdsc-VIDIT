@@ -22,6 +22,7 @@ export default function AgendaTitle(){
                     </div>
                     <img src={agenda1} alt="agendaimg" className="img1Agenda"/>
                     <img src={path} alt="path" className="pathAgenda"/>
+                    
                 </div>
                 
 

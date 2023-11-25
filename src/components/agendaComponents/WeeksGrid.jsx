@@ -5,7 +5,7 @@ import week1bg from "./../../backgroundassets/weeksbg.svg";
 import week2bg from "./../../backgroundassets/week2bg.svg";
 import week3bg from "./../../backgroundassets/week3bg.svg";
 import week4bg from "./../../backgroundassets/week4bg.svg";
-
+import greendot from "./../../assets/greendots.svg"
 
     const Weeks=[
             {
@@ -55,6 +55,10 @@ import week4bg from "./../../backgroundassets/week4bg.svg";
                     <div className="pathContainer">
                         <img src={pathWeeks} className="pathWeeks" />
                     </div>
+                    <img src={greendot} className="greendot1"/>
+                    <img src={greendot} className="greendot2"/>
+                    <img src={greendot} className="greendot3"/>
+                    <img src={greendot} className="greendot4"/>
                 </div>
             )
         }

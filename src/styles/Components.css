@@ -168,8 +168,37 @@ hr{
     left: 0px;
     top: 440px;
     width: 100%;
-    z-index: 2;
+    z-index: 4;
 }
+.greendot1{
+    position: absolute;
+    left: 340px;
+    top: -305px;
+    z-index: 5;
+    width: 80px;
+}
+.greendot2{
+    position: absolute;
+    top:371px;
+    right: 260px;
+    z-index: 5;
+    width: 80px;
+}
+.greendot3{
+    position: absolute;
+    bottom:809px;
+    right: 429px;
+    z-index: 5;
+    width: 80px;
+}
+.greendot4{
+    position: absolute;
+    bottom:603px;
+    left: 279px;
+    z-index: 5;
+    width: 80px;
+}
+
 
 .agendaTitleDescription{
     padding-left: 150px;
@@ -238,7 +267,7 @@ hr{
 .weeksGrid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr) 500px 1fr;
+    grid-template-rows: repeat(2,1fr) 500px 230px;
     justify-items: center;
     margin-bottom: 200px;
     row-gap: 30px;
@@ -546,5 +575,25 @@ hr{
    }
    .Container2{
     margin-bottom: 150px;
+   }
+   .greendot1{
+    left: 220px;
+    top: -149px;
+    width: 55px;
+   }
+   .greendot2{
+    right: 120px;
+    top: 146px;
+    width: 55px;
+   }
+   .greendot3{
+    right: 203px;
+    bottom: 563px;
+    width: 55px;
+   }
+   .greendot4{
+    left: 113px;
+    bottom: 439px;
+    width: 55px;
    }
 }
