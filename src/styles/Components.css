@@ -2,9 +2,10 @@
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-bottom: 190px;
+    margin-bottom: 260px;
     justify-content: space-evenly;
     width: 100%;
+    position: relative;
 }
 
 .titleText{
@@ -49,6 +50,11 @@
     left: 88px;
 }
 
+.bluedot{
+    position: absolute;
+    top: 428px;
+    right: 710px;
+}
 /* Path: src/styles/About.css */
 .Container2{
     display: flex;
@@ -577,23 +583,139 @@ hr{
     margin-bottom: 150px;
    }
    .greendot1{
-    left: 220px;
+    left: 27%;
     top: -149px;
     width: 55px;
    }
    .greendot2{
-    right: 120px;
+    right: 15%;
     top: 146px;
     width: 55px;
    }
    .greendot3{
-    right: 203px;
-    bottom: 563px;
+    right: 22%;
+    bottom: 567px;
     width: 55px;
    }
    .greendot4{
-    left: 113px;
+    left: 14%;
     bottom: 439px;
     width: 55px;
    }
+   .bluedot{
+    top: 220px;
+    right: 25%;
+    height: 70px;
+}
+}
+
+@media (min-width: 950px) and (max-width: 1450px) {
+        .ChallengeContainer >img {
+            width: 40%;
+            margin-left: 20px;
+        }
+        .ChallengeTitle {
+            font-size: 24px;
+            margin-top: 100px;
+        }
+        .ChallengeDescription {
+            font-size: 18px;
+            width: 80%;
+        }
+        .RegistrationBtn {
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        .sponsorLogosContainer >img {
+            width: 10%;
+        }
+        .sponsorLogosContainer {
+            margin-block: 30px 35px;
+        }
+        .gdsclogo {
+            width: 10%;
+        }
+        .footerUpperContainer {
+            height: 120px;
+        }
+        .footerLowerContainer {
+            height: 40px;
+            padding-right: 20px;
+        }
+        .footerLowerContainer >button {
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+        .leftPartFooter >h1 {
+            font-size: 20px;
+        }
+        .leftPartFooter >h2 {
+            font-size: 24px;
+        }
+        .middlePartFooter > p {
+            font-size: 12px;
+        }
+        .middlePartFooter {
+            row-gap: 9px;
+            column-gap: 0px;
+            grid-template-rows: repeat(3, 18px);
+            grid-template-columns: 25px auto;
+        }
+        .rightPartFooter >h1 {
+            font-size: 20px;
+        }
+        .socialMediaContainer >img {
+            width: 20px;
+            gap: 0;
+        }
+        .middlePartFooter >img {
+            width: 16px;
+        }
+        .AgendaContainer1 {
+            height: max-content;
+            margin-bottom: 80px;
+        }
+        .Container2 {
+            margin-bottom: 120px;
+        }
+        .greendot1 ,.greendot2,.greendot3,.greendot4{
+            display: none;
+        }
+        .bluedot {
+            top: 176px;
+            right: 20%;
+            height: 56px;
+        }
+    }
+  
+
+@media  (max-width: 600px){
+
+    .greendot1 ,.greendot2,.greendot3,.greendot4,.pathAgenda,.pathWeeks,.weeksbg,.img1Agenda,.workshopImg,.aboutImgtitle,.aboutbg,.footerUpperContainer{
+        display: none;
+    }
+    .Container2{
+        display: block;
+    }
+    .aboutDescription{
+        width: 600px;
+    }
+    .agendaTitleDescription{
+        padding-left: 40px;
+    }
+    .footerLowerContainer{
+        height: 40px;
+        padding-right: 7px;
+    }
+    .footerLowerContainer >button{
+        font-size: 13px;
+        padding: 7px 8px;
+    }
+    
+}
+@media  (max-width: 800px){
+    .greendot1 ,.greendot2,.greendot3,.greendot4{
+        display: none;
+    }  
 }

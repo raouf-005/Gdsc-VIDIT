@@ -3,6 +3,10 @@ import "./../styles/Components.css";
 import comp1 from "./../assets/comp1.svg"; 
 import leftLayer from "./../backgroundassets/leftLayer.svg";   
 import cercle from "./../backgroundassets/cercle.svg";
+import bluedot from "./../assets/bluedot.svg"
+
+
+
 export default function TitleComponent() {
     return (
         <div className="Container1">
@@ -16,6 +20,7 @@ export default function TitleComponent() {
             </div>
             <img src={comp1} alt="comp1" />
             <img src={leftLayer} alt="logo" className="leftLayer"/>
+            <img src={bluedot} alt="bluedot"  className="bluedot"/>
         </div>
     );
 }
