@@ -679,7 +679,7 @@ hr{
         .Container2 {
             margin-bottom: 120px;
         }
-        .greendot1 ,.greendot2,.greendot3,.greendot4{
+        .greendot1 ,.greendot2,.greendot3,.greendot4,.bluedot{
             display: none;
         }
         .bluedot {
@@ -715,7 +715,15 @@ hr{
     
 }
 @media  (max-width: 800px){
-    .greendot1 ,.greendot2,.greendot3,.greendot4{
+    .greendot1 ,.greendot2,.greendot3,.greendot4,.bluedot{
         display: none;
-    }  
+    } 
+    .titleText{
+        font-size: 24px;
+    }
+    .cerclebg{
+        top: 10px;
+        left: 10px;
+    }
+
 }
