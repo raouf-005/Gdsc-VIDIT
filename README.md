@@ -22,4 +22,4 @@ Explore the GDSC Vidit Trip website at [Gdsc-VIDIT](https://raouf-005.github.io/
 
 For any inquiries or assistance related to the website, please feel free to contact Abderraouf Derardja:
 
-- **Email:** [Abderraouf Derardja ](mailto:raouf.ard@gmail.com)
+- **Email:** raouf.ard@gmail.com
