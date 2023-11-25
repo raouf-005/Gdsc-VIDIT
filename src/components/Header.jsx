@@ -39,7 +39,7 @@ export default function Header() {
               Contact
               </button>
             <button className="RegisterBtn"
-              onClick={() => window.open('https://forms.gle/', '_blank')}
+              onClick={() => window.open('https://forms.gle/wfU1vp7rGQKwnbsn8', '_blank')}
             >
               Register Now</button>
         </div>

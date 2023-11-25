@@ -16,7 +16,9 @@ export default function TitleComponent() {
                     That story you always <br />
                     wanted to tell,<span style={{ color: "#F3796E" }}> VID it!</span>
                 </h1>
-                <button className="titleBtn">Get Started</button>
+                <button className="titleBtn"
+                onClick={()=>window.open('https://linktr.ee/gdsc_estin', '_blank')}
+                >Get Started</button>
             </div>
             <img src={comp1} alt="comp1" />
             <img src={leftLayer} alt="logo" className="leftLayer"/>
