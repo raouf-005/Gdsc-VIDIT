@@ -5,7 +5,7 @@ import aboutbg from "./../backgroundassets/aboutbg.svg";
 export default function About() {
     return(
         <div className="Container2" id='about-section'>
-            <img src={comp2} alt="" />
+            <img src={comp2} alt="" className="aboutImgtitle" />
             <div className="aboutRightPart">
                 <h2 className="aboutTitle">About <span style={{color:'#F48177'}}>VIDIT</span> </h2>
                 <h3 className="aboutSubTitle">

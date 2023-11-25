@@ -54,3 +54,23 @@
     right: 0;
     z-index: -1;
 }
+
+@media (max-width:1100px){
+    .headerbtns{
+        font-size: 16px;
+        padding: 13px 14px;
+    }
+    .RegisterBtn{
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+    .header{
+        padding-inline: 20px 10px;
+        
+        height: 90px;
+        
+    }
+    .header >img{
+        width: 14%;
+    }
+}

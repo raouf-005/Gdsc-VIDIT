@@ -17,7 +17,7 @@ export default function Sponsers() {
                 <img src={DigitalOcean} alt="digitalocean"/>
             </div>
             <center>
-            <img src={GdscLogo} alt="gdsclogo"  />
+            <img src={GdscLogo} alt="gdsclogo"  className="gdsclogo"/>
             </center>
         </>
     )

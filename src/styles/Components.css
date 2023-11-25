@@ -17,7 +17,7 @@
 .titleBtn{
     background-color: #4D8CF3;
     color: #FFFFFF;
-    padding: 18px 28px;
+    padding: 3% 7%;
     border-radius: 0.5rem;
     border: none;
    font-size: 24px;
@@ -96,6 +96,9 @@
     top: 60px;
     right: 15%;
  
+}
+.aboutImgtitle{
+    width: 47%;
 }
 /* Path: src/styles/Workshop.css */
 
@@ -212,7 +215,8 @@ hr{
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: top;
+    padding-top: 50px;
     padding-left: 50px;
     height: 100%;
     gap: 8%;
@@ -251,6 +255,7 @@ hr{
 }
 
 .pathWeeks{
+    position: absolute;
     width: 199%;
     
 }
@@ -343,14 +348,24 @@ hr{
 .middlePartFooter{
     display: grid;
     grid-template-columns: 30px 1fr;
-    grid-template-rows: repeat(3,30px);
+    grid-template-rows: repeat(3,40px);
     align-items: center;
     row-gap: 4px;
+    column-gap: 5px;
     
+}
+.middlePartFooter >img{
+    width: 24px;
+}
+.middlePartFooter >p{
+    font-size: 18px;
 }
 .footerLowerContainer >button{
     border-radius: 0.5rem;
     transition: color 0.2s, background-color 0.2s;
+}
+.rightPartFooter >h1{
+    font-size: 38px;
 }
 .socialMediaContainer{
     display: flex;
@@ -359,8 +374,8 @@ hr{
 }
 
 .socialMediaContainer > img{
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     object-position: center;
     cursor: pointer;
@@ -374,4 +389,161 @@ hr{
         
     }
 
- 
+/* responsive */
+@media (max-width: 1100px) {
+    .Container1 > img {
+        width: 40%;
+    }
+    .titleText{
+        font-size: 40px;
+    }
+    .cerclebg{
+        width: 12%;
+        left: 33px;
+        bottom: 138px;
+    }
+    .aboutTitle{
+        font-size: 28px;
+       margin-bottom: 10px;
+     
+    }
+    .aboutDescription ,.workshopDescription,.agendaDescription{
+        font-size: 16px;
+        margin: 0;
+        line-height: 28px;
+    }
+    .aboutSubTitle{
+       display: none;
+    }
+    .aboutbg{
+        width: 450px;
+        top: 0px;
+        right: 0px;
+    }
+    .workshopImg{
+        width: 55%;
+        object-fit: contain;
+        
+    }
+    .workshopTitle,.AgendaTitle{
+        font-size: 28px;
+    }
+    .ContainerWorkshop{
+        gap: 0px;
+    }
+   hr{
+       width: 80px;
+   }
+   .img1Agenda{
+    width: 51%;
+    margin-right: 15px;
+   }
+   
+   .agendaHr{
+    margin-left: 60px;
+   }
+   .weeksbg{
+        width: 164%;
+        top: -30px;
+        opacity: 0.6;
+        
+   }
+   .pathAgenda{
+         top: 230px;
+   }
+   .pathWeeks{
+        top: 260px;
+   }
+   .CardDescription{
+         font-size: 16px;
+         width: 100%;
+   }
+   .CardTitle{
+         font-size: 18px;
+         margin-top: 30px;
+   }
+   .CardTextConatainier{
+        gap: 10px;
+        padding-top: 60px;
+   }
+   .CardStyle{
+         width: 80%;
+         height: 400px;
+   }
+   .weeksGrid{
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: repeat(2,250px) 450px 140px;
+       row-gap: 0px;
+       margin-top: 140px;
+       
+   }
+   .ChallengeContainer >img{
+     width: 45%;
+     margin-left: 30px;
+   }
+   .ChallengeTitle{
+         font-size: 28px;
+         margin-top:130px ;
+   }
+   .ChallengeDescription{
+            font-size: 20px;
+            width: 90%;
+   }
+   .RegistrationBtn{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+   }
+   .sponsorLogosContainer >img{
+         width: 13%;
+   }
+   .sponsorLogosContainer{
+            margin-block: 40px 45px;
+   }
+   .gdsclogo{
+    width: 12%;
+   }
+   .footerUpperContainer{
+            height: 150px;
+   }
+   .footerLowerContainer{
+            height: 50px;
+            padding-right: 30px; 
+   }
+   .footerLowerContainer >button{
+            font-size: 16px;
+            padding: 10px 15px;
+   }
+   .leftPartFooter >h1{
+            font-size: 24px;
+   }
+   .leftPartFooter >h2{
+            font-size: 28px;
+   }
+   .middlePartFooter > p{
+        font-size: 14px;
+   }
+   .middlePartFooter{
+       row-gap: 11px;
+       column-gap: 0px;
+       grid-template-rows: repeat(3,23px);
+       grid-template-columns: 30px auto;
+   }
+   .rightPartFooter >h1{
+        font-size: 24px;
+   }
+   .socialMediaContainer >img{
+        width: 24px;
+        gap: 0;
+   }
+   .middlePartFooter >img{
+    width: 20px;
+   }
+   .AgendaContainer1{
+    height: max-content;
+    margin-bottom: 100px;
+   }
+   .Container2{
+    margin-bottom: 150px;
+   }
+}

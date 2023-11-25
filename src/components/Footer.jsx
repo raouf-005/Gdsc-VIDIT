@@ -24,8 +24,8 @@ export default function Footer(){
                 <img src={Localisation} alt="localisation" />
                 <p>ESTIN-Amizou-bejaia</p>
             </div>
-            <div>
-                <h1>
+            <div className="rightPartFooter">
+                <h1 >
                   GET IN TOUCH  
                 </h1>
                 <div className="socialMediaContainer">

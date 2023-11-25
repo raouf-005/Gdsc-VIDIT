@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../styles/Components.css";
-import weeksbg from "./../../backgroundassets/weeksbg.svg";
+
 export default function WeeksCard(props) {
         return (
                 <div className="CardStyle" 
@@ -10,7 +10,7 @@ export default function WeeksCard(props) {
                         <p className="CardDescription">{props.workshop1}</p>
                         <p className="CardDescription">{props.workshop2}</p>   
                 </div>
-                <img src={weeksbg} alt="weeksbg" className="weeksbg"/>
+                <img src={props.img} alt="weeksbg" className="weeksbg"/>
                 </div>
         );
 }

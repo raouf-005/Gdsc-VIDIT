@@ -6,7 +6,7 @@ export default function Workshop() {
     return(
        <div className="ContainerWorkshop" id='workshop-section'>
            <img src={workshop} alt="workshop" className="workshopImg" />
-            <div className="ContainerAgenda1Right">
+            <div className="ContainerWorkshopRight">
                 <hr />
                 <h2 className="workshopTitle">
                     workshops

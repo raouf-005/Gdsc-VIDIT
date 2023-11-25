@@ -6,8 +6,8 @@ import "./../../styles/Components.css";
 export default function AgendaTitle(){
     return(
                 <div className="AgendaContainer1">
-                    <div>
-                    <hr/>
+                    <div >
+                    <hr className="agendaHr"/>
                     <h2 className="AgendaTitle">
                         AGENDA
                     </h2>
