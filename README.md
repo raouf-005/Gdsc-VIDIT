@@ -16,7 +16,8 @@ Abderraouf Derardja has skillfully designed and developed this platform to provi
 
 ## Website Link
 Explore the GDSC Vidit Trip website at [Gdsc-VIDIT](https://raouf-005.github.io/Gdsc-VIDIT/) and immerse yourself in the virtual journey designed for exploration and learning.
-##Features
+
+## Features Website
 1. **Mobile view:** Mobile responsive design
 2. **Web responsive design:** It doesn't matter the size of the screen the webpage will alwayls look Great
 ## How to Use
