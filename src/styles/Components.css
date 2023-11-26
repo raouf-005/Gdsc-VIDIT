@@ -700,7 +700,7 @@ hr{
 
 @media  (max-width: 700px){
 
-    .pathAgenda,.pathWeeks,.weeksbg,hr,.aboutImgtitle,.footerUpperContainer{
+    .pathAgenda,.pathWeeks,.weeksbg,hr,.aboutImgtitle{
         display: none;
     }
     .Container2{
@@ -886,5 +886,34 @@ hr{
     }
     .footerLowerContainer{
         height: auto;
+    }
+    .footerUpperContainer{
+        height: 80px;
+    }
+    .rightPartFooter >h1{
+        margin: 0;
+        font-size: 15px;
+       text-align: center;
+    }
+    .socialMediaContainer  >img{
+        width: 14px;
+        height: 14px; 
+    }
+    .socialMediaContainer{
+        justify-content: center;
+        gap: 10px;
+    }
+    .leftPartFooter{
+        display: none;
+    }
+    .middlePartFooter{
+        gap: 0;
+    }
+    .middlePartFooter >p{
+        font-size: 12px;
+    }
+    .middlePartFooter >img{
+        width: 18px;
+        height: 18px;
     }
 }
