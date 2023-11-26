@@ -8,7 +8,7 @@ export default function Sponsers() {
 
     return(
         <>
-           <p style={{textAlign:'center',fontSize:'24px'}}>
+           <p  className="sponsor">
             sponsors
            </p>
             <div className="sponsorLogosContainer">

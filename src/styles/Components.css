@@ -6,6 +6,10 @@
     justify-content: space-evenly;
     width: 100%;
     position: relative;
+    padding-left: 20px;
+}
+.Container1 >img{
+    margin-right: 30px;
 }
 
 .titleText{
@@ -339,6 +343,10 @@ hr{
     justify-content: space-evenly;
     
 }
+.sponsor{
+    text-align: center;
+    font-size: 24px;
+}
 
 /*Path Footer */
 .footerUpperContainer{
@@ -485,7 +493,7 @@ hr{
         
    }
    .pathAgenda{
-         top: 230px;
+         top: 330px;
    }
    .pathWeeks{
         top: 260px;
@@ -690,13 +698,21 @@ hr{
     }
   
 
-@media  (max-width: 600px){
+@media  (max-width: 700px){
 
-    .greendot1 ,.greendot2,.greendot3,.greendot4,.pathAgenda,.pathWeeks,.weeksbg,.img1Agenda,.workshopImg,.aboutImgtitle,.aboutbg,.footerUpperContainer{
+    .pathAgenda,.pathWeeks,.weeksbg,hr,.aboutImgtitle,.footerUpperContainer{
         display: none;
     }
     .Container2{
         display: block;
+    }
+    .aboutbg{
+        left: 18%;
+        top: -25px;
+        width: 340px;
+    }
+    .aboutRightPart{
+        width: 100%;
     }
     .aboutDescription{
         width: 600px;
@@ -712,8 +728,38 @@ hr{
         font-size: 13px;
         padding: 7px 8px;
     }
-    
-    
+    #root{
+        width: 100%;
+    }
+    .header{
+        margin-bottom: 40px;
+        margin-top: 10px;
+        height: 60px;
+
+    }
+    .headerbtns{
+        font-size: 14px;
+    }
+    .RegisterBtn{
+        display: none;
+    }
+    .weeksGrid{
+        margin-top: 40px;
+        grid-template-rows: repeat(4,230px);
+      
+    }
+    .CardTextConatainier{
+        padding-left: 20px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .Container1{
+        margin-bottom: 120px;
+    }
+    .footerLowerContainer{
+        justify-content: center;
+        gap: 40px;
+    }
 }
 @media  (max-width: 800px){
     .greendot1 ,.greendot2,.greendot3,.greendot4,.bluedot{
@@ -730,4 +776,115 @@ hr{
         margin-left: 0px;
     }
 
+}
+
+@media (max-width:490px) {
+    .titleText{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .titleBtn{
+        font-size: 16px;
+    }
+    .headerbtns{
+        margin: 0;
+        padding-inline: 6px;
+    }
+    .aboutDescription{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .ContainerWorkshop{
+        align-items: top;
+    }
+    .workshopImg{
+        height: 300px;
+       
+    }
+    .img1Agenda{
+        padding-top: 130px;
+        margin-right: 0px;
+    }
+    .aboutbg{
+        left: 0px;
+        top: 5px;
+        width: 100%;
+    }
+    .weeksGrid{
+       display: flex;
+         flex-direction: column;
+         row-gap: 20px;
+         align-items: center;
+    }
+    .CardTextConatainier{
+        padding-bottom: 0px;
+        row-gap: 0px;
+        height: 300px;
+    }
+    .CardTitle{
+        margin-bottom: 10px;
+    }
+    .AgendaContainer1{
+        margin-bottom: 10px;
+    }
+    .sponsor{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .CardStyle{
+        height: 390px;
+        
+    }
+    .workshopTitle,.AgendaTitle{
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .AgendaTitle{
+        padding-left: 40px;
+        margin-top: 20px;
+    }
+    .AgendaContainer1{
+        margin-top: 35px;
+    }
+    .workshopDescription,.agendaDescription{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .weeksGrid{
+        margin-bottom: 20px;
+    }
+ 
+    .ChallengeContainer >img{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .ChallengeTitle{
+        font-size: 20px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .ChallengeDescription{
+        font-size: 15px;
+        
+    }
+    .RegistrationBtn{
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .CardDescription{
+        font-size: 15px;
+    }
+    .sponsorLogosContainer{
+        margin-block: 30px;
+    }
+    .footerLowerContainer{
+        height: auto;
+    }
 }
