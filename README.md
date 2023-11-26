@@ -22,6 +22,9 @@ Explore the GDSC Vidit Trip website at [Gdsc-VIDIT](https://raouf-005.github.io/
 2. **Explore Sections:** Navigate through the various sections to access information about the event.
 3. **Engage:** Join the community discussions, participate in workshops, and make the most out of your virtual journey.
 
+
+###I hope you enjoy it :)
+
 ## Contact
 For any inquiries or assistance related to the website, feel free to reach out to Abderraouf Derardja:
 - **Email:** [raouf.ard@gmail.com](mailto:raouf.ard@gmail.com)
